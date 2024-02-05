@@ -40,8 +40,8 @@ const HomePageLayout = ({ data }) => {
       <Navbar />
       <div className='hero'>
         <img src={IstLogo} alt='Instituto Superior Técnico' width={150} />
-        <h1>Resumos LEIC-A</h1>
-        <p>Bem vindo ao site comunitário de resumos de LEIC-A.</p>
+        <h1>Resumos LEFT</h1>
+        <p>Bem vindo ao site comunitário de resumos de LEFT.</p>
         <p>Aqui irás encontrar tudo o que precisas ao longo do semestre.</p>
       </div>
       <div style={{ marginTop: 50 }}>
@@ -78,7 +78,7 @@ const HomePageLayout = ({ data }) => {
         <div className='custom-container custom-container-warning'>
           <p>Disclaimer</p>
           <p>
-            Resumos LEIC não está afiliado ao{' '}
+            Resumos LEFT não está afiliado ao{' '}
             <ExternalLink href='https://tecnico.ulisboa.pt'>tecnico.ulisboa.pt</ExternalLink> de
             forma alguma. Todo o conteúdo escrito disponível neste site é dado por contribuidores
             (listados acima). Alguns anexos podem ter sido cedidos por professores, após obter a
@@ -91,7 +91,7 @@ const HomePageLayout = ({ data }) => {
           </p>
           <p>
             Questões relacionadas com <em>copyright</em> deverão ser encaminhadas para{' '}
-            <ExternalLink href='mailto:resumos@leic.pt'>resumos@leic.pt</ExternalLink>.
+            <ExternalLink href='mailto:nfist.ist@gmail.com'>nfist.ist@gmail.com</ExternalLink>.
           </p>
         </div>
       </div>

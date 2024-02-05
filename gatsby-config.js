@@ -2,9 +2,9 @@ const puppeteer = require('puppeteer');
 
 module.exports = {
   siteMetadata: {
-    title: `Resumos LEIC-A`,
-    shortTitle: `Resumos LEIC-A`,
-    description: `Resumos das UCs de LEIC-A do IST`,
+    title: `Resumos LEFT`,
+    shortTitle: `Resumos LEFT`,
+    description: `Resumos das UCs de LEFT do IST`,
     siteUrl: 'https://resumos.leic.pt',
     sidebarSections: [
       { key: 'topLevelPage' },
@@ -22,11 +22,11 @@ module.exports = {
       repository: 'resumos-leic',
     },
     navbar: {
-      siteTitle: 'Resumos LEIC-A',
+      siteTitle: 'Resumos LEFT',
       links: [
         {
-          title: 'IST LEIC-A',
-          href: 'https://fenix.tecnico.ulisboa.pt/cursos/leic-a',
+          title: 'IST LEFT',
+          href: 'https://fenix.tecnico.ulisboa.pt/cursos/left',
         },
         {
           title: 'GitHub',
